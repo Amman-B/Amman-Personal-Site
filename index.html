@@ -33,23 +33,21 @@
         <ul class="actions">
           <li>
             <a
-              href="#header"
-              class="button icon solid solo fa-arrow-down scrolly"
-              >Continue</a
-            >
+              href="#header" class="button icon solid solo fa-arrow-down scrolly"
+            ></a>
           </li>
         </ul>
       </div>
 
       <!-- Header -->
       <header id="header">
-        <a href="#footer" class="logo scrolly">Contact Me</a>
+        <a href="#contact-header" class="logo scrolly">Contact Me</a>
       </header>
 
       <!-- Nav -->
       <nav id="nav">
         <ul class="links">
-          <li class="active"><a href="#">About me</a></li>
+          <li class="active"><a href="#header">About me</a></li>
         </ul>
         <ul class="icons">
           <li>
@@ -58,7 +56,10 @@
             >
           </li>
           <li>
-            <a href="#" class="icon brands fa-github"
+            <a
+              href="https://github.com/Amman-B"
+              target="blank"
+              class="icon brands fa-github"
               ><span class="label">GitHub</span></a
             >
           </li>
@@ -86,6 +87,8 @@
         </article>
 
         <!-- Posts -->
+
+        <!-- Project 1 -->
         <section class="posts">
           <article>
             <header>
@@ -95,14 +98,15 @@
               ><img src="images/pic06.jpg" alt=""
             /></a>
             <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
+              A mobile responsive weather application that uses OpenWeatherAPI
+              to display accurate weather readings based on city and country.
             </p>
             <ul class="actions special">
-              <li><a href="#" class="button">Full Story</a></li>
+              <li><a href="#" class="button">Live Demo</a></li>
             </ul>
           </article>
+
+          <!-- Project 2 -->
           <article>
             <header>
               <h2>
@@ -126,14 +130,15 @@
           </article>
         </section>
 
-        <!-- Footer -->
-        <footer></footer>
+        <!-- CONTACT ME HEADING AT THE END OF THE PAGE-->
+        <h1 style="text-align: center;" id="contact-header">CONTACT ME</h1>
       </div>
 
-      <!-- Footer -->
+      <!-- FORM SECTION AT THE END OF THE PAGE -->
       <footer id="footer">
+        
         <section>
-          <form method="post" action="#">
+          <form method="post" action="https://formsubmit.co/amman.bhat52@gmail.com">
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
@@ -141,11 +146,11 @@
               </div>
               <div class="field">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+                <input type="text" name="email" id="email" required />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="3"></textarea>
+                <textarea name="message" id="message" rows="3" required></textarea>
               </div>
             </div>
             <ul class="actions">
@@ -154,10 +159,7 @@
           </form>
         </section>
         <section class="split contact">
-          <section>
-            <h3>Phone</h3>
-            <p>(519) 980-7861</p>
-          </section>
+          
           <section>
             <h3>Email</h3>
             <p>amman.bhat52@gmail.com</p>
@@ -167,13 +169,17 @@
             <ul class="icons alt">
               <li>
                 <a href="#" class="icon brands alt fa-linkedin"
-                  ><span class="label">Linkedin</span></a
-                >
+                  ><span class="label">Linkedin</span>
+                </a>
               </li>
               <li>
-                <a href="#" class="icon brands alt fa-github"
-                  ><span class="label">GitHub</span></a
+                <a
+                  href="https://github.com/Amman-B"
+                  target="blank"
+                  class="icon brands alt fa-github"
                 >
+                  <span class="label">GitHub</span>
+                </a>
               </li>
             </ul>
           </section>
